@@ -1,0 +1,53 @@
+.profil {
+  height: 100vh;
+  color: white;
+}
+.body {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 8%;
+  max-width: 800px;
+}
+.body > h1 {
+  font-size: 60px;
+  font-weight: 400;
+  border-bottom: 1px solid #282c2d;
+  margin-bottom: 20px;
+}
+.info {
+  display: flex;
+}
+.info > img {
+  height: 100px;
+}
+.details {
+  colo: white;
+  margin-left: 25px;
+  flex: 1;
+}
+.details > h2 {
+  background-color: grey;
+  padding: 15px;
+  padding-left: 20px;
+  font-size: 15px;
+}
+.plans {
+  margin-top: 20px;
+}
+.plans > h3 {
+  border-bottom: 1px solid #282c2d;
+  padding-bottom: 10px;
+}
+.signOut {
+  margin-top: 5%;
+  padding: 10px 20px;
+  font-size: 1rem;
+  width: 100%;
+  background-color: #e50914;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
