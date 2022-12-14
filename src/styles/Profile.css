@@ -1,8 +1,8 @@
-.profil {
+.profilScreen {
   height: 100vh;
   color: white;
 }
-.body {
+.profilScreen_body {
   display: flex;
   flex-direction: column;
   width: 50%;
@@ -11,37 +11,37 @@
   padding-top: 8%;
   max-width: 800px;
 }
-.body > h1 {
+.profilScreen_body > h1 {
   font-size: 60px;
   font-weight: 400;
   border-bottom: 1px solid #282c2d;
   margin-bottom: 20px;
 }
-.info {
+.profilScreen_info {
   display: flex;
 }
-.info > img {
+.profilScreen_info > img {
   height: 100px;
 }
-.details {
-  colo: white;
+.profilScreen_details {
+  color: white;
   margin-left: 25px;
   flex: 1;
 }
-.details > h2 {
+.profilScreen_details > h2 {
   background-color: grey;
   padding: 15px;
   padding-left: 20px;
   font-size: 15px;
 }
-.plans {
+.plansScreen {
   margin-top: 20px;
 }
-.plans > h3 {
+.plansScreen > h3 {
   border-bottom: 1px solid #282c2d;
   padding-bottom: 10px;
 }
-.signOut {
+.profilScreen_signOut {
   margin-top: 5%;
   padding: 10px 20px;
   font-size: 1rem;

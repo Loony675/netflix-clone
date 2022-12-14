@@ -9,21 +9,21 @@ import Plans from "./Plans";
 export default function Profile() {
   const user = useSelector(selectUser);
   return (
-    <div className="profil">
+    <div className="profilScreen">
       <Nav />
-      <div className="body">
-        <h1>Edit profile</h1>
-        <div className="info">
+      <div className="profilScreen_body">
+        <h1>Profil</h1>
+        <div className="profilScreen_info">
           <img
             src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png"
             alt="avatar-pic"
           />
-          <div className="details">
+          <div className="profilScreen_details">
             <h2>{user.email}</h2>
-            <div className="plans">
+            <div className="plansScreen">
               <h3>Abonnements</h3>
               <Plans />
-              <button className="signOut" onClick={() => auth.signOut()}>
+              <button className="profilScreen_signOut" onClick={() => auth.signOut()}>
                 Se déconnecter
               </button>
             </div>

@@ -1,6 +1,21 @@
-.abonnement {
-    
+.plansScreen_abonnement {
+  display: flex;
+    justify-content: space-between;
+    padding:20px;
+    opacity: 0.8;
 }
-.plans_info {
-
+.plansScreen_abonnement:hover {
+    opacity:1;
+}
+.plansScreen_abonnement > button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: #e50914;
+    border:none;
+    font-weight: 600;
+    cursor: pointer;
+}
+.planScreen_abonnement_actif > button{
+background-color: grey;;
 }
